@@ -33,3 +33,4 @@ Calculate the total impressions:-TotalImpressions = SUM([Impressions])
 
 ## Dashboard
 ![image](https://github.com/Kranthi-india/Twitter-Dashboard-Analytics-using-Powerbi/blob/main/Tweet%20Analytics%20Task%201.pbix)
+1[Image](https://github.com/Kranthi-india/Twitter-Dashboard-Analytics-using-Powerbi/blob/main/Tweet%20Analytics%20Task%201.pbix)
