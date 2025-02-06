@@ -18,8 +18,7 @@ The twitter analytics are used to "Create a visual that shows the average engage
 ## Process
 1.Import your dataset that includes tweet details (date, impressions, likes, retweets, etc.).
 2.Remove tweets with fewer than 100 impressions: Filter the dataset by Impressions >= 100.Remove tweets with 0 likes: Filter the dataset by Likes > 0.
-3.In Power BI Query Editor, add a custom filter to keep only the tweets that were posted between 01-01-2020 and 30-06-2020.
-Filter: Date >= 01-01-2020 and Date <= 30-06-2020
+3.In Power BI Query Editor, add a custom filter to keep only the tweets that were posted between 01-01-2020 and 30-06-2020.Filter: Date >= 01-01-2020 and Date <= 30-06-2020
 4.Filter the data to include only records where the HourOfDay is between 15 (3 PM IST) and 17 (5 PM IST).
 Example Filter: HourOfDay >= 15 AND HourOfDay < 17.
 5.Average Engagement Rate:
@@ -33,5 +32,4 @@ Calculate the total impressions:-TotalImpressions = SUM([Impressions])
 8.Publish to Power BI Service
 
 ## Dashboard
-! [Dashboard Image](https://1drv.ms/i/s!AqmNAuO-hcBvdvOD90k6e1cz5hk?e=237Gif.jpg)
 https://github.com/Kranthi-india/Twitter-Dashboard-Analytics-using-Powerbi/blob/main/Tweet%20Analytics%20Task%201.pbix
