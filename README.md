@@ -5,5 +5,32 @@ The twitter analytics are used to "Create a visual that shows the average engage
 # DATA Set Used
 - <a href="https://github.com/Kranthi-india/Twitter-Dashboard-Analytics-using-Powerbi/blob/main/Tweet%20Analytics%20Task%201.pbix">Dataset</a>
 
-# Dashboard INTERACTION
-- <a href="https://1drv.ms/u/s!AqmNAuO-hcBvcXJVfEElxsos3Os?e=hbGcZB">View Dashboard</a>
+# Questions (KPI's)
+1.What is the average engagement rate for tweets posted between 01-01-2020 and 30-06-2020?
+2.What is the total number of impressions for tweets posted between 01-01-2020 and 30-06-2020?
+3.How to filter out tweets with fewer than 100 impressions and likes as 0?
+4.How to show the graph only between 3 PM IST and 5 PM IST?
+5.How to visualize the data on the dashboard and exclude times outside 3 PM - 5 PM IST?
+
+# Dashboard interaction
+- <a hred="https://github.com/Kranthi-india/Twitter-Dashboard-Analytics-using-Powerbi/blob/main/Tweet.xlsx">View Dashboard</a>
+
+## Process
+1.Import your dataset that includes tweet details (date, impressions, likes, retweets, etc.).
+2.Remove tweets with fewer than 100 impressions: Filter the dataset by Impressions >= 100.Remove tweets with 0 likes: Filter the dataset by Likes > 0.
+3.In Power BI Query Editor, add a custom filter to keep only the tweets that were posted between 01-01-2020 and 30-06-2020.
+Filter: Date >= 01-01-2020 and Date <= 30-06-2020
+4.Filter the data to include only records where the HourOfDay is between 15 (3 PM IST) and 17 (5 PM IST).
+Example Filter: HourOfDay >= 15 AND HourOfDay < 17.
+5.Average Engagement Rate:
+Use the formula provided earlier to calculate the average engagement rate:-
+AverageEngagementRate = DIVIDE(SUM([Likes] + [Retweets] + [Comments]), SUM([Impressions]), 0)
+This will give you the average engagement rate of tweets posted during the given period.
+Total Impressions:
+Calculate the total impressions:-TotalImpressions = SUM([Impressions])
+6.Create the Visual
+7.Time-Based Display Logic
+8.Publish to Power BI Service
+
+## Dashboard
+-<a href="https://1drv.ms/i/s!AqmNAuO-hcBvdvOD90k6e1cz5hk?e=237Gif">Dahboardscreenshort</a>
