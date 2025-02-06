@@ -13,7 +13,7 @@ The twitter analytics are used to "Create a visual that shows the average engage
 5.How to visualize the data on the dashboard and exclude times outside 3 PM - 5 PM IST?
 
 # Dashboard interaction
-- <a hred="https://github.com/Kranthi-india/Twitter-Dashboard-Analytics-usingPowerbi/blob/main/Tweet.xlsx">View Dashboard</a>
+- <a href="https://github.com/Kranthi-india/Twitter-Dashboard-Analytics-using-Powerbi/blob/main/Tweet%20Analytics%20Task%201.pbix">View Dashboard</a>
 
 ## Process
 1.Import your dataset that includes tweet details (date, impressions, likes, retweets, etc.).
