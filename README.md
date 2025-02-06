@@ -33,3 +33,14 @@ Calculate the total impressions:-TotalImpressions = SUM([Impressions])
 
 ## Dashboard
 ![image](https://github.com/Kranthi-india/Twitter-Dashboard-Analytics-using-Powerbi/blob/main/Tweet%20Analytics%20Task%201.pbix)
+
+## Project insight
+the average engagement rate and total impressions for tweets posted between '01- 01-2020' and '30-06-2020'
+Filter out tweets that received fewer than 100 impressions = 4,157
+Average enagagement rate = 0.02
+tweets that received likes should be 0
+graph should work only between 3PM IST to 5 PM IST 
+
+## Conclusion
+This project provides a detailed analysis of tweet performance for a specified period, allowing stakeholders to track engagement and impressions effectively. By filtering out low-impact tweets and limiting the display based on specific times, the dashboard ensures that only high-value, time-relevant data is presented, helping users focus on the most meaningful insights.
+
