@@ -33,4 +33,4 @@ Calculate the total impressions:-TotalImpressions = SUM([Impressions])
 8.Publish to Power BI Service
 
 ## Dashboard
--<a href="https://1drv.ms/i/s!AqmNAuO-hcBvdvOD90k6e1cz5hk?e=237Gif">Dahboardscreenshort</a>
+! [Dashboard Image](https://1drv.ms/i/s!AqmNAuO-hcBvdvOD90k6e1cz5hk?e=237Gif.jpg)
