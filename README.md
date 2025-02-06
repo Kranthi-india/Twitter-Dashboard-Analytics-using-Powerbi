@@ -32,4 +32,4 @@ Calculate the total impressions:-TotalImpressions = SUM([Impressions])
 8.Publish to Power BI Service
 
 ## Dashboard
-! [image](https://github.com/Kranthi-india/Twitter-Dashboard-Analytics-using-Powerbi/blob/main/Tweet%20Analytics%20Task%201.pbix.jpg)
+![image](https://github.com/Kranthi-india/Twitter-Dashboard-Analytics-using-Powerbi/blob/main/Tweet%20Analytics%20Task%201.pbix)
